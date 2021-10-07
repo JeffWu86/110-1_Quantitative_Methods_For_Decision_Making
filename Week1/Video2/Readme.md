@@ -2,6 +2,8 @@
 
 ## Video 2
 
+#### Installing R and R Studio
+
 >  Install R
 >
 >  > Free open source for Windows, macOS and linux-system 

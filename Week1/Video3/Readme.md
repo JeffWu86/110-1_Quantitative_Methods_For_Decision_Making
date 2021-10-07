@@ -2,6 +2,8 @@
 
 ## Video 3
 
+#### Getting started with R, Part I
+
 ```R
 # Assign 11 to value x by equal sign =
 > x = 11
