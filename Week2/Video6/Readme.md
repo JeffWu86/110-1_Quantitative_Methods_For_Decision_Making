@@ -31,7 +31,7 @@
 
 # The "Code Preview" is the code that we would enter into the console in order to import the data from the command line.
 > library(readxl)
-> LungCapData <- read_excel("C:/Users/Jeff/R_test/Excel Data File.xlsx", 
+> LungCapData <- read_excel("C:/Users/Jeff/Week2/Video6/Excel Data File.xlsx", 
 +     sheet = "LungCapData", col_types = c("numeric", 
 +         "skip", "numeric", "text", "text", 
 +         "text", "text"), na = "***")
@@ -41,7 +41,7 @@
 # For the second worksheet
 # "Range" option allows you to select certain cells to import
 > library(readxl)
-> OtherData <- read_excel("C:/Users/Jeff/R_test/Excel Data File.xlsx", 
+> OtherData <- read_excel("C:/Users/Jeff/Week2/Video6/Excel Data File.xlsx", 
 +     sheet = "AnotherDataset", range = "B3:E11")
 > View(OtherData)
 ```
