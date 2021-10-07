@@ -2,6 +2,8 @@
 
 ## Video 1
 
+#### What is RStudio and why should you download it?
+
 >  R Studio
 >
 > > Make the environment for R nesser
