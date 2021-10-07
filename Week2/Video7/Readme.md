@@ -49,22 +49,6 @@
 +           row.names=F, sep=" ")
 
 # "write.csv2" command is used some places in Western Europe and would use a comma for a deciaml point and a semicolon for a separator rather than a comma
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
 
 
