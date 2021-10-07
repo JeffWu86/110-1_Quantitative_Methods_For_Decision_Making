@@ -2,7 +2,7 @@
 
 ## Video 5
 
-#### Importing data from Excel into R (both .csv and .txt files)
+#### Importing Data from Excel into R (both .csv and .txt files)
 
 ```R
 # Save the data file as comma separated value (.csv) or tab delimited text file (.txt)
@@ -89,7 +89,7 @@
 
 Reference:
 
-  [Import Data, Copy Data from Excel to R CSV & TXT Files | R Tutorial 1.5 | MarinStatsLectures](https://www.youtube.com/watch?v=2TcPAZOyV0U&list=PLqzoL9-eJTNARFXxgwbqGo56NtbJnB37A&index=5)
+[Import Data, Copy Data from Excel to R CSV & TXT Files | R Tutorial 1.5 | MarinStatsLectures](https://www.youtube.com/watch?v=2TcPAZOyV0U&list=PLqzoL9-eJTNARFXxgwbqGo56NtbJnB37A&index=5)
 
 ---
 

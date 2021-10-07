@@ -4,15 +4,21 @@
 
 >  Week 1 2021/9/24
 >
->  > Video 1
+>  > Video 1 What is RStudio and Why Should You Download it?
 >  >
->  > Video 2
+>  > Video 2 Installing R and RStudio
 >  >
->  > Video 3
+>  > Video 3 Getting Started with R, Part I
 >
 >  Week 2 2021/10/1
 >
->  
+>  > Video 4 Getting Started with R, Part II: Creating vectors, matrices, and performing some simple operations on them
+>  >
+>  > Video 5 Importing Data from Excel into R (both .csv and .txt files)
+>  >
+>  > Video 6 How to Import Excel File into R: Using RStudio readxl Built-in Package and Menu
+>  >
+>  > Video 7 How to Export Data from R
 
 
 

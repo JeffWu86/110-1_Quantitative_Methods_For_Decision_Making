@@ -2,7 +2,7 @@
 
 ## Video 3
 
-#### Getting started with R, Part I
+#### Getting Started with R, Part I
 
 ```R
 # Assign 11 to value x by equal sign =
@@ -82,7 +82,7 @@ Error: unexpected symbol in "1x"
 
 Reference:
 
-  [Getting started with R: Basic Arithmetic and Coding in R | R Tutorial 1.3 | MarinStatsLectures](https://www.youtube.com/watch?v=riONFzJdXcs&list=PLqzoL9-eJTNARFXxgwbqGo56NtbJnB37A&index=2)
+[Getting started with R: Basic Arithmetic and Coding in R | R Tutorial 1.3 | MarinStatsLectures](https://www.youtube.com/watch?v=riONFzJdXcs&list=PLqzoL9-eJTNARFXxgwbqGo56NtbJnB37A&index=2)
 
 ---
 

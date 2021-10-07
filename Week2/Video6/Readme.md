@@ -2,7 +2,7 @@
 
 ## Video 6
 
-#### How to Import Excel file into R: Using RStudio readxl built-in package and menu
+#### How to Import Excel File into R: Using RStudio readxl Built-in Package and Menu
 
 ```R
 # readxl package can import both .xlsx and .xls files
@@ -52,7 +52,7 @@
 
 Reference:
 
-  [Importing/Reading Excel data into R using RStudio (readxl) | R Tutorial 1.5b | MarinStatsLectures](https://www.youtube.com/watch?v=2TcPAZOyV0U&list=PLqzoL9-eJTNARFXxgwbqGo56NtbJnB37A&index=6)
+[Importing/Reading Excel data into R using RStudio (readxl) | R Tutorial 1.5b | MarinStatsLectures](https://www.youtube.com/watch?v=2TcPAZOyV0U&list=PLqzoL9-eJTNARFXxgwbqGo56NtbJnB37A&index=6)
 
 ---
 

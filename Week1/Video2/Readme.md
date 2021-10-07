@@ -2,7 +2,7 @@
 
 ## Video 2
 
-#### Installing R and R Studio
+#### Installing R and RStudio
 
 >  Install R
 >
@@ -41,7 +41,7 @@
 
 Reference:
 
-  [Download and Install R and RStudio | R Tutorial 1.2 | MarinStatsLectures](https://www.youtube.com/watch?v=cX532N_XLIs&list=PLqzoL9-eJTNARFXxgwbqGo56NtbJnB37A&index=2)
+[Download and Install R and RStudio | R Tutorial 1.2 | MarinStatsLectures](https://www.youtube.com/watch?v=cX532N_XLIs&list=PLqzoL9-eJTNARFXxgwbqGo56NtbJnB37A&index=2)
 
 ---
 

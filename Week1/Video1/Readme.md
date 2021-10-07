@@ -2,7 +2,7 @@
 
 ## Video 1
 
-#### What is RStudio and why should you download it?
+#### What is RStudio and Why Should You Download it?
 
 >  R Studio
 >
@@ -58,7 +58,7 @@ sum(x,y,z)
 
 Reference:
 
-  [What is RStudio and Why Should You Download It? | R Tutorial 1.1 | MarinStatsLectures](https://www.youtube.com/watch?v=riONFzJdXcs&list=PLqzoL9-eJTNARFXxgwbqGo56NtbJnB37A&index=1)
+[What is RStudio and Why Should You Download It? | R Tutorial 1.1 | MarinStatsLectures](https://www.youtube.com/watch?v=riONFzJdXcs&list=PLqzoL9-eJTNARFXxgwbqGo56NtbJnB37A&index=1)
 
 ---
 

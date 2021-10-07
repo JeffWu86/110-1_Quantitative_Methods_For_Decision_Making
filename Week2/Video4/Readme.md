@@ -2,7 +2,7 @@
 
 ## Video 4
 
-#### Getting started with R, Part II: Creating vectors, matrices, and performing some simple operations on them
+#### Getting Started with R, Part II: Creating vectors, matrices, and performing some simple operations on them
 
 ```R
 # Create a vector with c or concatenate command
@@ -137,7 +137,7 @@
 
 Reference:
 
-  [Create and Work with Vectors and Matrices in R | R Tutorial 1.4 | MarinStatslectures](https://www.youtube.com/watch?v=2TcPAZOyV0U&list=PLqzoL9-eJTNARFXxgwbqGo56NtbJnB37A&index=4)
+[Create and Work with Vectors and Matrices in R | R Tutorial 1.4 | MarinStatslectures](https://www.youtube.com/watch?v=2TcPAZOyV0U&list=PLqzoL9-eJTNARFXxgwbqGo56NtbJnB37A&index=4)
 
 ---
 
