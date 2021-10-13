@@ -19,6 +19,20 @@
 >  > Video 6 How to Import Excel File into R: Using RStudio readxl Built-in Package and Menu
 >  >
 >  > Video 7 How to Export Data from R
+>
+>  Week 3 2021/10/8
+>
+>  > Video 8 Getting Started with Data in R, Part I
+>  >
+>  > Video 9 Working with Data in R, Part II
+>  >
+>  > Video 10 Subsetting Data Using Square Brackets in R
+>
+>  Week 4 2021/10/15
+>
+>  > Video 11 Logic Statements, and a Few Other Random But Useful Commands in R
+>  >
+>  > 
 
 
 
