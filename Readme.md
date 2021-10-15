@@ -32,7 +32,15 @@
 >
 >  > Video 11 Logic Statements, and a Few Other Random But Useful Commands in R
 >  >
->  > 
+>  > Video 12 Setting Up Your Working Directory in R
+>  >
+>  > Video 13 Writing Scripts of Code in R
+>  >
+>  > Video 14 Installing Packages in R
+>
+>  Week 5 2021/10/22
+>
+>  > Video 15
 
 
 
