@@ -29,6 +29,13 @@ yy <- str_split(kk, " ")
 
 install.packages("pdftools")
 library(pdftools)
+pdfText <- pdf_text(paste0(getwd(), "/05160218039.004.pdf"))
+text1 <- pdfText[1]
+pos1 <- str_locate(text1, "發文字號：")
+pos2 <- str_locate(text1, "彰院毓110司執助丁字第683號")
+pos3 <- str_locate(text1, "主旨")
+wantedString <- str_sub(text1, pos1[1,2]+1, pos3[1,1]-3)
+file.rename(paste0(getwd(), "/05160218039.004.pdf"), paste0(getwd(), "/", wantedString, ".pdf"))
 
 ###################################################################
 
