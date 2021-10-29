@@ -23,4 +23,13 @@ str_sub(resultA[1,1], 1, str_locate(resultA[1,1], "院")[1])
 
 str_split(resultA[1,1], "毓")[[1]][1]
 
+getSubString <- function(i){
+  return( str_sub(resultA[i,1], 1, str_locate(resultA[i,1], "院")[1]) )
+}
 
+subMat <- vector(mode="character", length=dim(resultA)[1])
+
+for (i in c(1:dim(resultA)[1])) {
+  subMat[i] <- getSubString(i)
+}
+subMat[1700:1800]
