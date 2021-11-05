@@ -22,8 +22,8 @@ str_sub(aa[[1]], a1[,2]+1, a2[,1]-1)
 str_sub(aa[[1]], a2[,2]+1, a3[,1]-1)
 str_sub(aa[[1]], a3[,2]+1, a4[,1]-1)
 #Name From To 
-HW <- data.frame( Name=str_sub(aa[[1]], a3[,2]+1, a4[,1]-1), From=str_sub(aa[[1]], a1[,2]+1, a2[,1]-1), To=str_sub(aa[[1]], a2[,2]+1, a3[,1]-1) )
-HW
+homework <- data.frame( Name=str_sub(aa[[1]], a3[,2]+1, a4[,1]-1), From=str_sub(aa[[1]], a1[,2]+1, a2[,1]-1), To=str_sub(aa[[1]], a2[,2]+1, a3[,1]-1) )
+homework
 
 #str_split(str_split(aa[[1]][1], "To")[[1]], "Marin")
 #str_split
