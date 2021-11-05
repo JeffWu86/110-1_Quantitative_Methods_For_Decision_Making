@@ -14,8 +14,13 @@ a2 <- str_locate(aa[[1]], "To")
 a3 <- str_locate(aa[[1]], "-")
 a4 <- str_locate(aa[[1]], "-2021")
 
+# Name form: Marin1.1To1.11-吳諺倫-20211105
+
+# From locate
 str_sub(aa[[1]], a1[,2]+1, a2[,1]-1)
+# To locate
 str_sub(aa[[1]], a2[,2]+1, a3[,1]-1)
+# Name locate
 str_sub(aa[[1]], a3[,2]+1, a4[,1]-1)
 #Name From To 
 HW <- data.frame( Name=str_sub(aa[[1]], a3[,2]+1, a4[,1]-1), From=str_sub(aa[[1]], a1[,2]+1, a2[,1]-1), To=str_sub(aa[[1]], a2[,2]+1, a3[,1]-1) )
