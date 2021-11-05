@@ -21,28 +21,6 @@ str_sub(aa[[1]], a3[,2]+1, a4[,1]-1)
 HW <- data.frame( Name=str_sub(aa[[1]], a3[,2]+1, a4[,1]-1), From=str_sub(aa[[1]], a1[,2]+1, a2[,1]-1), To=str_sub(aa[[1]], a2[,2]+1, a3[,1]-1) )
 
 HW
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
 
 [Google sheet for HW 1](https://docs.google.com/spreadsheets/d/1x07ZHmCFt2azUkBpwc1ktkP3BE2Ezy5CiRY0POfnxQM/edit#gid=0)
