@@ -30,6 +30,11 @@ homework <- data.frame( Name=str_sub(aa[[1]], a3[,2]+1, a4[,1]-1), From=str_sub(
 
 # Show homework frame
 homework
+
+
+# Compare with benchmark
+# 11/19 Video
+# Find the maximum value
 ```
 
 [Google sheet for HW 1](https://docs.google.com/spreadsheets/d/1x07ZHmCFt2azUkBpwc1ktkP3BE2Ezy5CiRY0POfnxQM/edit#gid=0)
