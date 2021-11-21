@@ -95,9 +95,9 @@
 
 # cume_dist(): a cumulative distribution function.
 # Proportion of all values less than or equal to the current rank.
-> basket_1 = mutate(my_basket, "cume_rank" = cume_dist(my_basket$Price))
+> basket_1 = mutate(my_basket, "cume_dist" = cume_dist(my_basket$Price))
 > basket_1
-   ITEM_GROUP ITEM_NAME Price Tax  cume_rank
+   ITEM_GROUP ITEM_NAME Price Tax  cume_dist
 9   Vegetable   Raddish    25   3 0.07692308
 12      Dairy    Cheese    35   6 0.15384615
 11      Dairy      Curd    40   5 0.23076923
@@ -113,9 +113,9 @@
 1       Fruit     Apple   100   2 1.00000000
 14      Dairy    Paneer    NA  NA         NA
 
-> basket_1 = mutate(my_basket, "cume_rank" = round(cume_dist(my_basket$Price), 2))
+> basket_1 = mutate(my_basket, "cume_dist" = round(cume_dist(my_basket$Price), 2))
 > basket_1
-   ITEM_GROUP ITEM_NAME Price Tax cume_rank
+   ITEM_GROUP ITEM_NAME Price Tax cume_dist
 9   Vegetable   Raddish    25   3      0.08
 12      Dairy    Cheese    35   6      0.15
 11      Dairy      Curd    40   5      0.23
@@ -193,7 +193,7 @@
 # Compared to the base ifelse(), this function is more strict.
 # It checks that true and false are the same type.
 # This strictness makes the output type more predictable, and makes it somewhat faster.
-> my_basket %>% mutate(Price_band = if_else(Price > 70, "High", "Low"))
+> my_basket %>% mutate("Price_band" = if_else(Price > 70, "High", "Low"))
    ITEM_GROUP ITEM_NAME Price Tax Price_band
 9   Vegetable   Raddish    25   3        Low
 12      Dairy    Cheese    35   6        Low
@@ -210,7 +210,7 @@
 1       Fruit     Apple   100   2       High
 14      Dairy    Paneer    NA  NA       <NA>
 
-> my_basket %>% mutate(Price_band = if_else(Price > 70, "High", "Low", "Missing"))
+> my_basket %>% mutate("Price_band" = if_else(Price > 70, "High", "Low", "Missing"))
    ITEM_GROUP ITEM_NAME Price Tax Price_band
 9   Vegetable   Raddish    25   3        Low
 12      Dairy    Cheese    35   6        Low
@@ -229,7 +229,7 @@
 
 # What if we want multiple if_else statements?
 # Cascaded the if_else
-> my_basket %>% mutate(Price_band = if_else(Price > 70, "High", 
+> my_basket %>% mutate("Price_band" = if_else(Price > 70, "High", 
                                             if_else(Price > 50, "Medium", "Low"), "Missing"))
    ITEM_GROUP ITEM_NAME Price Tax Price_band
 9   Vegetable   Raddish    25   3        Low
@@ -340,8 +340,8 @@
 118         幸福        Y19  2536           10.17
 119 新北產業園區        Y20  2818           12.71
 
-# Q2. Sorted the Q1 answer "Avg" in decreasing order 
-> Q2 <- Q1[order(Q1[,4], decreasing = TRUE),]
+# Q2. Sorted the Q1 answer "Avg" in decreasing order
+> Q2 <- Q1[order(Q1[,3], decreasing = TRUE),]
 > Q2[c(1:5,115:119),]
      Station Station_No   Avg percent_rank(%)
 89  台北車站        R10 83084          100.00

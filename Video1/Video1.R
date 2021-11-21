@@ -30,10 +30,10 @@ basket_0
 
 # cume_dist(): a cumulative distribution function.
 # Proportion of all values less than or equal to the current rank.
-basket_1 = mutate(my_basket, "cume_rank" = cume_dist(my_basket$Price))
+basket_1 = mutate(my_basket, "cume_dist" = cume_dist(my_basket$Price))
 basket_1
 
-basket_1 = mutate(my_basket, "cume_rank" = round(cume_dist(my_basket$Price), 2))
+basket_1 = mutate(my_basket, "cume_dist" = round(cume_dist(my_basket$Price), 2))
 basket_1
 
 # ntile(): a rough rank, which breaks the input vector into n buckets.
@@ -53,12 +53,12 @@ basket_4
 # Compared to the base ifelse(), this function is more strict.
 # It checks that true and false are the same type.
 # This strictness makes the output type more predictable, and makes it somewhat faster.
-my_basket %>% mutate(Price_band = if_else(Price > 70, "High", "Low"))
-my_basket %>% mutate(Price_band = if_else(Price > 70, "High", "Low", "Missing"))
+my_basket %>% mutate("Price_band" = if_else(Price > 70, "High", "Low"))
+my_basket %>% mutate("Price_band" = if_else(Price > 70, "High", "Low", "Missing"))
 
 # What if we want multiple if_else statements?
 # Cascaded the if_else
-my_basket %>% mutate(Price_band = if_else(Price > 70, "High", 
+my_basket %>% mutate("Price_band" = if_else(Price > 70, "High", 
                                           if_else(Price > 50, "Medium", "Low"), "Missing"))
 
 
@@ -94,7 +94,7 @@ Q1 <- mutate(MRT_analysis, "percent_rank(%)" = round(percent_rank(MRT_analysis$A
 Q1[c(1:5,115:119),]
 
 # Q2. Sorted the Q1 answer "Avg" in decreasing order 
-Q2 <- Q1[order(Q1[,4], decreasing = TRUE),]
+Q2 <- Q1[order(Q1[,3], decreasing = TRUE),]
 Q2[c(1:5,115:119),]
 
 # Q3. Add the ntile with 100 of "Avg" in each station from Q2
