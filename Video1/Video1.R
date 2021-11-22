@@ -72,7 +72,7 @@ case_when(
 
 # dplyr::case_when
 # This function allows you to vectorise multiple if_else() statements
-my_basket %>% mutate(Price_band = case_when(
+my_basket %>% mutate("Price_band" = case_when(
   Price > 70 ~ "High", 
   Price > 50 ~ "Medium",
   is.na(Price) ~ "Missing",
