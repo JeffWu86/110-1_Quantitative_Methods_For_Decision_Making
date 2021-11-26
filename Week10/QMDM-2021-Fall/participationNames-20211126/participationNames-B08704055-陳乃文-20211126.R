@@ -1,0 +1,18 @@
+require(pdftools)
+require(tm)
+files=list.files=(pattern=)
+files=list.files(file.choose(),header=TRUE,sep=",")
+fileNames= list.files("mostVideos-20211119",full.names=FALSE)
+fileNames2=list.files("comparisonWithBenchmark-20211119",full.names=FALSE)
+fileNames3=list.files("mikeMarinSummary-20211119-20211126T023918Z-001",full.names=FALSE)
+
+FileNames=as.data.frame(fileNames01)
+FileNames2=as.data.frame(fileNames02)
+FileNames3=as.data.frame(fileNames03)
+
+resultone=getNames(fileNames)
+resulttwo2=getNames(fileNames2)
+resultthree=getNames(fileNames3)
+sortedall=c(resultone,resulttwo,resultthree)
+final=unique(sortall)
+final=data.frame(Names=finalsortedall)
