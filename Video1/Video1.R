@@ -1,6 +1,7 @@
 # Video 1 for R08943016
 
 rm(list = ls()) # Remove all the variables
+Sys.setlocale(locale="Chinese")
 
 # Make sure that you had installed the whole tidyverse:package
 # install.packages("tidyverse")
@@ -81,7 +82,8 @@ my_basket %>% mutate("Price_band" = case_when(
 
 
 # Practice time
-MRT_data <- read.csv(file=paste0(getwd(), "/MRT_data_2021.csv"), header=T)
+MRT_data <- read.csv(file=paste0(getwd(), "/MRT_data_2021_Simplified.csv"), header=T)
+# MRT_data <- read.csv(file=paste0(getwd(), "/MRT_data_2021_Traditional.csv"), header=T)
 MRT_data[c(1:5,115:119),-c(5:20)]
 MRT_data = mutate(MRT_data, "Avg" = round((Avg_I+Avg_O)/2,0))
 MRT_data[c(1:5,115:119),-c(5:21)]
