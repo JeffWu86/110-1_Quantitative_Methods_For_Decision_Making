@@ -7,7 +7,7 @@ library(httr)
 ## Get data  
 #######################################################
 
-my_url= "https://io.adafruit.com/api/v2/r08943016/feeds/test1/data?x-aio-key=aio_mHpr01qKo3Xvl0uJHLdX9DtP5zo¨A"
+my_url= "https://io.adafruit.com/api/v2/r08943016/feeds/test1/data?x-aio-key=¨A"
 
 my_raw_result <- httr::GET(my_url)
 
@@ -30,12 +30,12 @@ dplyr::glimpse(my_content_from_json)
 ## Post data
 #######################################################
 ## Post a number
-post_number_url <- "https://io.adafruit.com/api/v2/r08943016/feeds/test1/data?x-aio-key=aio_mHpr01qKo3Xvl0uJHLdX9DtP5zo4"
+post_number_url <- "https://io.adafruit.com/api/v2/r08943016/feeds/test1/data?x-aio-key="
 
 postResponse <- httr::POST(post_number_url, body=list(value=125))
 
 ## Post a text
-post_text_url <- "https://io.adafruit.com/api/v2/r08943016/feeds/test1/data?x-aio-key=aio_mHpr01qKo3Xvl0uJHLdX9DtP5zo4"
+post_text_url <- "https://io.adafruit.com/api/v2/r08943016/feeds/test1/data?x-aio-key="
 
 postResponse <- httr::POST(post_text_url, body=list(value="very good"))
 
